@@ -1,0 +1,36 @@
+siempre primero
+*{
+	padding:0px;
+	margin:0px;
+}
+
+/*para todo en general, para q se acomode al cambiar el tamaÃ±o de la pagina*/
+header {
+	width:100%;
+	background:#f2f2f2;
+	box-shadow:3px 3px 5px #000;
+	height:120px;
+	position:relative;
+	}
+/*acomodar letra*/
+#y {
+	width:900px;
+	padding-top:30px;
+	margin:auto;
+}
+/*todo en si*/
+	#y ul a{
+		color:#000000;
+		text-decoration:none;
+		font:bold 17px verdana;
+		padding:0px 20px 10px 20px;
+		background:transparent;
+		border-bottom:5px solid transparent;
+		transition:border-bottom .5s;
+		}
+		#y ul a:hover{
+			border-bottom:5px solid #071910; 
+		}
+h1{
+	z-index:1;
+}
